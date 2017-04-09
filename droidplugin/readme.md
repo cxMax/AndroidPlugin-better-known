@@ -11,3 +11,5 @@ http://weishu.me/2016/03/07/understand-plugin-framework-ams-pms-hook/
 4. chapter 4 - intercept-activity
 http://weishu.me/2016/03/21/understand-plugin-framework-activity-management/
 
+5. chapter 5 - classloader-hook
+http://weishu.me/2016/04/05/understand-plugin-framework-classloader/
