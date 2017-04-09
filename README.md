@@ -5,6 +5,9 @@ DroidPlugin and Atlas practise samples to know them well
 this most codes of this module are picked up from https://github.com/tiann/understand-plugin-framework  
 it's for a better understanding of DroidPlugin's principle
 
+### BTW
+ashamedly , I haven't understood Plugin' principle very well , I think it's necessary for me to review android framework resource codes , otherwise , It's too difficult to understand plugin tech.
+
 ### License
  Copyright (C) 2016 Amit Shekhar
    Copyright (C) 2011 Android Open Source Project
