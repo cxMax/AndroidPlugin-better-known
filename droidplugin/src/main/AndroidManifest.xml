@@ -7,4 +7,6 @@
 
     </application>
 
+    <!-- 替身Activity, 用来欺骗AMS  -->
+    <activity android:name=".StubActivity"/>
 </manifest>
