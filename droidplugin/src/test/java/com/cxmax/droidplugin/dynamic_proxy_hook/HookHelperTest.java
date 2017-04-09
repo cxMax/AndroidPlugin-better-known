@@ -1,5 +1,7 @@
 package com.cxmax.droidplugin.dynamic_proxy_hook;
 
+import org.junit.Test;
+
 import static org.junit.Assert.*;
 
 /**
@@ -11,4 +13,8 @@ import static org.junit.Assert.*;
  */
 public class HookHelperTest {
 
+    @Test
+    public void hookActivityManager() {
+
+    }
 }
