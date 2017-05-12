@@ -18,8 +18,8 @@ https://mirrors.tuna.tsinghua.edu.cn/help/AOSP/
 ashamedly , I haven't understood Plugin' principle very well , I think it's necessary for me to review android framework resource codes , otherwise , It's too difficult to understand plugin tech.
 
 ### License
- Copyright (C) 2016 Amit Shekhar
-   Copyright (C) 2011 Android Open Source Project
+ Copyright (C) 2017 cxMax  
+ Copyright (C) 2017 Android-plugin-sample  
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
