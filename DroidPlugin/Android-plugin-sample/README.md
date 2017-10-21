@@ -1,25 +1,20 @@
-# Android-plugin-sample
-DroidPlugin and Atlas practise samples to know them well
+# DroidPlugin
+学习指南
 
-### DroidPlugin 
-this most codes of this module are picked up from https://github.com/tiann/understand-plugin-framework  
-it's for a better understanding of DroidPlugin's principle
+## 学习指南
+### Step 1 
+* 关于android源码的学习 :   
+http://gityuan.com/2015/10/31/binder-prepare/    
+建议看这个系列的博客, 老罗写的android源码,时间比较,而且对新人理解起来有难度.  
+建议可以先看老罗的博客,在看上面这个系列的.我当时就是这么反复看的.  
+理解源码后,对于解决App日常的bug和ANR问题就极大的帮助.  
 
-### BTW
-ashamedly , I haven't understood Plugin' principle very well , I think it's necessary for me to review android framework resource codes , otherwise , It's too difficult to understand plugin tech.
+### Step 2
+* 关于理解DroidPlugin内部对于framework层的hook :   
+http://weishu.me/2016/01/28/understand-plugin-framework-overview/
 
-### License
- Copyright (C) 2016 Amit Shekhar
-   Copyright (C) 2011 Android Open Source Project
-
-   Licensed under the Apache License, Version 2.0 (the "License");
-   you may not use this file except in compliance with the License.
-   You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-   Unless required by applicable law or agreed to in writing, software
-   distributed under the License is distributed on an "AS IS" BASIS,
-   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-   See the License for the specific language governing permissions and
-   limitations under the License.
+## Tips
+* 许多DroidPlugin源码阅读建议 :   
+对于四大组件内部hook的细节实现,我并没有立刻一个一个深入去看    
+配合内部插件项目平时的bug解决, 再去找对应出错问题模块的源码.   
+便于理解整个DroidPlugin.
