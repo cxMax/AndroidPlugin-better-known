@@ -18,8 +18,8 @@ ps : if you work under Chinese Greet Wall , it will be performed perfectly.
 https://mirrors.tuna.tsinghua.edu.cn/help/AOSP/
 
 
-## Tips for refresh
-for better understood Plugin' principle very well , I think it's necessary to review android framework resource codes , otherwise , It's too difficult to understand plugin tech.
+## Tips for fresh
+for better understanding plugin's principle, I think it's necessary to review android framework code.u'd better to clone AndoirdSourceOpenProject as upper steps.
 
 ## License MIT
  Copyright (C) 2017 cxMax  
