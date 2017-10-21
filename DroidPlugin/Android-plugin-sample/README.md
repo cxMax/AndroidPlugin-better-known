@@ -5,12 +5,12 @@
 ### Step 1 
 * 关于android源码的学习 :   
 http://gityuan.com/2015/10/31/binder-prepare/    
-建议看这个系列的博客, 老罗写的android源码,有点年代了,而且对新人理解起来有点难度.  
-建议可以先看老罗的博客,在看上面这个系列的.我当时就是这么反复看了几遍才理解的.  
-理解源码后,对于解决App日常的bug和ANR问题就极大的帮助.  
+建议看这个系列的博客, 老罗写的android源码,有点年代了,而且对新人理解起来有点难度.     
+建议可以先看老罗的博客,在看上面这个系列的.我当时就是这么反复看了几遍才理解的.    
+理解源码后,对于解决App日常的bug和ANR问题有极大的帮助.  
 
 ### Step 2
-* 关于理解DroidPlugin内部对于framework层的各种hook :   
+* 关于理解DroidPlugin内部对于framework层的各种hook :    
 http://weishu.me/2016/01/28/understand-plugin-framework-overview/
 
 ## Tips
