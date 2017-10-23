@@ -1,0 +1,21 @@
+apply plugin: 'replugin-host-gradle'
+
+repluginHostConfig {
+    /**
+     * 是否使用 AppCompat 库
+     * 不需要个性化配置时，无需添加
+     */
+    useAppCompat = true
+    /**
+     * 背景不透明的坑的数量
+     * 不需要个性化配置时，无需添加
+     */
+    countNotTranslucentStandard = 6
+    countNotTranslucentSingleTop = 2
+    countNotTranslucentSingleTask = 3
+    countNotTranslucentSingleInstance = 2
+}
+
+dependencies {
+    compile 'com.qihoo360.replugin:replugin-host-lib:2.2.1'
+}
