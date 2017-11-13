@@ -19,7 +19,7 @@ https://mirrors.tuna.tsinghua.edu.cn/help/AOSP/
 
 
 ## Tips for fresh
-for better understanding plugin's principle, I think it's necessary to review android framework code.u'd better to clone AndoirdSourceOpenProject as upper steps.
+for better understanding plugin's principle, I think it's necessary to review android framework code.u'd better to clone AndoirdSourceOpenProject by upper tutorial.
 
 ## License MIT
  Copyright (C) 2017 cxMax  
