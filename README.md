@@ -14,7 +14,7 @@
 
 ## 下载Android源码
 https://source.android.com/source/downloading
-墙内镜像 :  
+墙内镜像 :
 https://mirrors.tuna.tsinghua.edu.cn/help/AOSP/
 
 
