@@ -1,5 +1,17 @@
-## reference : 
-
+## reference :  
+http://weishu.me/2016/01/18/dive-into-asynctask/
+http://droidyue.com/blog/2014/11/08/bad-smell-of-asynctask-in-android/index.html
+* AsyncTask的内部实现 ?
+    * 使用Callable + Future 用于获取结果
+    * progress + result , 是使用handler去发送结果的
+    * 内部使用的线程池 , 并且串行队列, 可以达到先入先出的数组
+* AsyncTask的缺点 :
+    * 默认的拒绝策略, 和128长度的线程池 , 如果处理大量的任务, 会导致进程直接崩溃
+    * 内部是默认串行机制, 如果并行的, 因为doInbackground()访问了他公共资源, 未作同步, 所以gg
+    * 必须在主线程初始化, 因为默认的IntentHandler是Looper是主线程的
+    * 内存泄漏, 内部会持有外部引用
+    * cancel不一定能doInBackground会执行到结束, 只是不执行onPostExecute
+## AsyncTask
 android的异步任务体系中还有一个非常重要的操作类：AsyncTask，其内部主要使用的是java的线程池和Handler来实现异步任务以及与UI线程的交互。本文主要解析AsyncTask的的使用与源码。
 
 首先我们来看一下AsyncTask的基本使用：
