@@ -13,10 +13,11 @@
 * VirtualAPK(滴滴) : https://github.com/didi/VirtualAPK  
 
 ## 下载Android源码
-https://source.android.com/source/downloading
-墙内镜像 :
-https://mirrors.tuna.tsinghua.edu.cn/help/AOSP/
+https://source.android.com/source/downloading  
+墙内镜像 :  
+https://mirrors.tuna.tsinghua.edu.cn/help/AOSP/  
 
+* mac下载AOSP方式 ： https://www.jianshu.com/p/53e590eb237a
 
 ## Thanks
 [yipianfengye/androidSource](https://github.com/yipianfengye/androidSource)
